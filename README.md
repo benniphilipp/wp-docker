@@ -2,8 +2,18 @@
 
 Instalieren
 ```
-docker-compose up -d && docker-compose logs -f wordpress
+docker-compose up -d --build
 ```
+
+Starten
+````
+docker-compose up
+```
+Löschen
+`````
+docker-compose down --volumes
+```
+
 
 Anpassung für php.ini in uploads.ini
 
